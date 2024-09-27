@@ -3,12 +3,10 @@ package com.automation.steps;
 import com.automation.pages.LoginPage;
 import com.automation.utils.ConfigReader;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
-
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class LoginSteps {
 

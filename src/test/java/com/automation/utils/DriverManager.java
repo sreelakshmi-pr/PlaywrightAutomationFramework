@@ -22,6 +22,7 @@ public class DriverManager {
     }
 
     public static void quit() {
+
         playwright.close();
     }
 }
